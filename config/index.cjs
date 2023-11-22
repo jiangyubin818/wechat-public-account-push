@@ -19,7 +19,7 @@ const USER_CONFIG = {
     {
       name: 'jyc',
       id: 'onxGC6UrO-1hzunsiwHH9hDJcpPI',
-      useTemplateId: 'kyJrAZF3lhUI_PX52a2wRkk6CiNx_wX2QnW4PU8WgQ8',
+      useTemplateId: '_nCN6ggh0u7nPbDciQZFGDGv56gFDVDkMaOSIVOzfvs',
       
       festivals: [
         { type: '生日', name: '玉玉', year: '1995', date: '02-22', },
@@ -34,7 +34,7 @@ const USER_CONFIG = {
     {
       name: 'jyb',
       id: 'onxGC6Ywg2ZG5fcmVVuYLWsut3zA',
-      useTemplateId: 'kyJrAZF3lhUI_PX52a2wRkk6CiNx_wX2QnW4PU8WgQ8',
+      useTemplateId: '_nCN6ggh0u7nPbDciQZFGDGv56gFDVDkMaOSIVOzfvs',
       
       festivals: [
         { type: '生日', name: '玉玉', year: '1995', date: '02-22', },
