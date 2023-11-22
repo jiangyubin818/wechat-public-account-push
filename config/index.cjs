@@ -30,7 +30,7 @@ const USER_CONFIG = {
       ],
     },
     {
-      name: 'jyc',
+      name: 'jcy',
       id: 'onxGC6UrO-1hzunsiwHH9hDJcpPI',
       useTemplateId: 'nvmKOSYAGJAea7tiliMCmoMDOYUxw7IpUVsiBXU-Rcw',
       
