@@ -18,7 +18,7 @@ const USER_CONFIG = {
     {
       name: '亲爱的',
       id: 'onxGC6Ywg2ZG5fcmVVuYLWsut3zA',
-      useTemplateId: 'NZOaqI4Ha7RHiI2CSjhMg8OfLCqq9xwpi8nGIOTxaB8',
+      useTemplateId: '_iPTyLeGLHg1DDxOEf6wARgS0qaIQf14Aa_j95J1_xU',
       
       festivals: [
         {
