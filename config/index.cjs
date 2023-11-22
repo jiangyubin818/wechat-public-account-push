@@ -21,22 +21,16 @@ const USER_CONFIG = {
       useTemplateId: 'NZOaqI4Ha7RHiI2CSjhMg8OfLCqq9xwpi8nGIOTxaB8',
       
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '生日', name: '小玉玉玉', year: '1995', date: '02-22',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '姜~', year: '1993', date: '08-18',
         },
         {
-          type: '节日', name: '恋爱纪念日', year: '2013', date: '10-02',
+          type: '生日', name: '小玉玉玉', year: '1995', date: '02-22',
         },
       ],
 
       FESTIVALS_LIMIT: 0,
       
-      // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         {"keyword":"love_day", date:"2013-10-02"},
       ],
