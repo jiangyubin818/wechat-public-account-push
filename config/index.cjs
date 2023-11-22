@@ -20,7 +20,7 @@ const USER_CONFIG = {
       id: 'onxGC6Vvbbz3NuEi8B0O8iVek9RY',
       useTemplateId: 'nvmKOSYAGJAea7tiliMCmoMDOYUxw7IpUVsiBXU-Rcw',
 
-      openUrl: 'https://www.baidu.com/',
+      openUrl: 'https://www.baidu.com',
       
       festivals: [
         { type: '生日', name: '玉玉', year: '1995', date: '02-22', },
