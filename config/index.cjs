@@ -7,10 +7,8 @@
  */
 const USER_CONFIG = {
 
-  // 使用微信测试号：公众号APP_ID
+  // 微信测试公众号信息
   APP_ID: 'wx243d37fbb712c76d',
-
-  // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'e9c41438882e93de7a073188a2bc85a1',
 
   PROVINCE: '北京',
@@ -18,16 +16,9 @@ const USER_CONFIG = {
 
   USERS: [
     {
-      name: '小玉玉玉',
+      name: '亲爱的',
       id: 'onxGC6Ywg2ZG5fcmVVuYLWsut3zA',
-      useTemplateId: 'A1V74uwwiyWbUQ2Z437yYpAQocsU8pudrscJhPfQsi0',
-
-      // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '02-22',
-      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
-      horoscopeDateType: '今日',
-      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: 'https://wangxinleo.cn',
+      useTemplateId: '5j-zrw2MVT_txDtiUXUgCv4pvX1DBOS93cJYlvNy2hU',
       
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -46,17 +37,17 @@ const USER_CONFIG = {
       FESTIVALS_LIMIT: 0,
       
       // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [],
+      customizedDateList: [
+        {"keyword":"love_day", date:"2013-10-02"},
+      ],
     },
   ],
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: 'yGJRsh67M6UFWxE0zNfD7i_1Vl8hvUZ0r4mf1JChbWA',
-
   CALLBACK_USERS: [
     {
       name: '自己',
-      // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'onxGC6Ywg2ZG5fcmVVuYLWsut3zA',
     }
   ],
