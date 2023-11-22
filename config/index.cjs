@@ -15,11 +15,10 @@ const USER_CONFIG = {
   CITY: '北京',
 
   USERS: [
-    /*
     {
-      name: 'jyc',
-      id: 'onxGC6UrO-1hzunsiwHH9hDJcpPI',
-      useTemplateId: 'xwd-DqCKQyXQvFzB4k1l_Gz0jHl7EJgP-PhyeAkHWFo',
+      name: 'jyb',
+      id: 'onxGC6Ywg2ZG5fcmVVuYLWsut3zA',
+      useTemplateId: 'nvmKOSYAGJAea7tiliMCmoMDOYUxw7IpUVsiBXU-Rcw',
       
       festivals: [
         { type: '生日', name: '玉玉', year: '1995', date: '02-22', },
@@ -30,11 +29,10 @@ const USER_CONFIG = {
         {"keyword":"love_day", date:"2013-10-02"},
       ],
     },
-    */
     {
-      name: 'jyb',
-      id: 'onxGC6Ywg2ZG5fcmVVuYLWsut3zA',
-      useTemplateId: 'xwd-DqCKQyXQvFzB4k1l_Gz0jHl7EJgP-PhyeAkHWFo',
+      name: 'jyc',
+      id: 'onxGC6UrO-1hzunsiwHH9hDJcpPI',
+      useTemplateId: 'nvmKOSYAGJAea7tiliMCmoMDOYUxw7IpUVsiBXU-Rcw',
       
       festivals: [
         { type: '生日', name: '玉玉', year: '1995', date: '02-22', },
