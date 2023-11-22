@@ -17,7 +17,7 @@ const USER_CONFIG = {
   USERS: [
     {
       name: 'jyb',
-      id: 'onxGC6Ywg2ZG5fcmVVuYLWsut3zA',
+      id: 'onxGC6Vvbbz3NuEi8B0O8iVek9RY',
       useTemplateId: 'nvmKOSYAGJAea7tiliMCmoMDOYUxw7IpUVsiBXU-Rcw',
       
       festivals: [
@@ -50,7 +50,7 @@ const USER_CONFIG = {
   CALLBACK_USERS: [
     {
       name: '自己',
-      id: 'onxGC6Ywg2ZG5fcmVVuYLWsut3zA',
+      id: 'onxGC6Vvbbz3NuEi8B0O8iVek9RY',
     }
   ],
 }
