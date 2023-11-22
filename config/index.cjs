@@ -18,29 +18,38 @@ const USER_CONFIG = {
 
   USERS: [
     {
-      // 想要发送的人的名字
       name: '小玉玉玉',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'onxGC6UrO-1hzunsiwHH9hDJcpPI',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      id: 'onxGC6Ywg2ZG5fcmVVuYLWsut3zA',
       useTemplateId: 'A1V74uwwiyWbUQ2Z437yYpAQocsU8pudrscJhPfQsi0',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+
+      // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '02-22',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: 'https://wangxinleo.cn',
+      
       festivals: [
-        // 注意：`type`中 “生日” 之前有 * 符号为阴历, 阳历生日没有* 符号
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
           type: '生日', name: '小玉玉玉', year: '1995', date: '02-22',
         },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '姜~', year: '1993', date: '08-18',
+        },
+        {
+          type: '节日', name: '恋爱纪念日', year: '2013', date: '10-02',
+        },
       ],
+
+      FESTIVALS_LIMIT: 0,
+      
       // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2013-10-02' },
-      ],
+      customizedDateList: [],
     },
   ],
-
-
+  
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: 'yGJRsh67M6UFWxE0zNfD7i_1Vl8hvUZ0r4mf1JChbWA',
 
