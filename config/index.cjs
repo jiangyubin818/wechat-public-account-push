@@ -18,18 +18,19 @@ const USER_CONFIG = {
     {
       name: '亲爱的',
       id: 'onxGC6Ywg2ZG5fcmVVuYLWsut3zA',
-      useTemplateId: 'FFpyEEsX5wAglFQQf3_h0luAjQUIhVYJ1d3Tl2MVlIE',
+      useTemplateId: 'rwOR8Q-DJw7P4rhqMc-0RYLDzRuLMUoonhU56TDDviU',
       
       festivals: [
-        //{
-          //type: '生日', name: '小玉玉玉', year: '1995', date: '02-22',
-        //},
+        {
+          type: '生日', name: '玉玉', year: '1995', date: '02-22',
+        },
+        {
+          type: '*生日', name: '彬彬', year: '1993', date: '08-18',
+        },
       ],
       
       customizedDateList: [
         {"keyword":"love_day", date:"2013-10-02"},
-        {"keyword":"wx_birthday_0", date:"1993-08-18"},
-        {"keyword":"jcy_birthday", date:"1995-02-22"},
       ],
     },
   ],
@@ -42,7 +43,6 @@ const USER_CONFIG = {
       id: 'onxGC6Ywg2ZG5fcmVVuYLWsut3zA',
     }
   ],
-
 }
 
 module.exports = USER_CONFIG
