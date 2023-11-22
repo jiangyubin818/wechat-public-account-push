@@ -28,7 +28,7 @@ const USER_CONFIG = {
       
       customizedDateList: [
         {"keyword":"love_day", date:"2013-10-02"},
-        {"keyword":"jyb_birthday", date:"1993-08-18"},
+        {"keyword":"wx_birthday_0", date:"1993-08-18"},
         {"keyword":"jcy_birthday", date:"1995-02-22"},
       ],
     },
