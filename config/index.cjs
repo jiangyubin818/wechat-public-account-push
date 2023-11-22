@@ -18,21 +18,18 @@ const USER_CONFIG = {
     {
       name: '亲爱的',
       id: 'onxGC6Ywg2ZG5fcmVVuYLWsut3zA',
-      useTemplateId: '_iPTyLeGLHg1DDxOEf6wARgS0qaIQf14Aa_j95J1_xU',
+      useTemplateId: 'JJi-V4AlMpVFbCySAFP8GCYqfDuc5FanuGI9fr_CitA',
       
       festivals: [
-        {
-          type: '生日', name: '姜~', year: '1993', date: '08-18',
-        },
-        {
-          type: '生日', name: '小玉玉玉', year: '1995', date: '02-22',
-        },
+        //{
+          //type: '生日', name: '小玉玉玉', year: '1995', date: '02-22',
+        //},
       ],
-
-      FESTIVALS_LIMIT: 0,
       
       customizedDateList: [
         {"keyword":"love_day", date:"2013-10-02"},
+        {"keyword":"jyb_birthday", date:"1993-08-18"},
+        {"keyword":"jcy_birthday", date:"1995-02-22"},
       ],
     },
   ],
