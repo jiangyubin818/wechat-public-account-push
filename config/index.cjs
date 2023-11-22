@@ -19,6 +19,8 @@ const USER_CONFIG = {
       name: 'jyb',
       id: 'onxGC6Vvbbz3NuEi8B0O8iVek9RY',
       useTemplateId: 'nvmKOSYAGJAea7tiliMCmoMDOYUxw7IpUVsiBXU-Rcw',
+
+      openUrl: 'https://www.baidu.com/',
       
       festivals: [
         { type: '生日', name: '玉玉', year: '1995', date: '02-22', },
@@ -29,6 +31,7 @@ const USER_CONFIG = {
         {"keyword":"love_day", date:"2013-10-02"},
       ],
     },
+    /*
     {
       name: 'jcy',
       id: 'onxGC6UrO-1hzunsiwHH9hDJcpPI',
@@ -43,6 +46,7 @@ const USER_CONFIG = {
         {"keyword":"love_day", date:"2013-10-02"},
       ],
     },
+    */
   ],
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
