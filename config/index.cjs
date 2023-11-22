@@ -18,7 +18,7 @@ const USER_CONFIG = {
     {
       name: '亲爱的',
       id: 'onxGC6Ywg2ZG5fcmVVuYLWsut3zA',
-      useTemplateId: '0WLVndNsoyu8GHa6p0317nsYc8mukZwY0IkpX2MqA00',
+      useTemplateId: 'NZOaqI4Ha7RHiI2CSjhMg8OfLCqq9xwpi8nGIOTxaB8',
       
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
