@@ -59,8 +59,7 @@ const TEMPLATE_CONFIG = [
       🗓️{{date.DATA}}
       
       下个休息日：{{holidaytts.DATA}}
-      
-      ---
+
       
       城市：{{province.DATA}}·{{city.DATA}}
       
@@ -81,12 +80,11 @@ const TEMPLATE_CONFIG = [
       日出/日落时间：{{sunrise.DATA}}/{{sunset.DATA}}
       
       温馨提示：{{notice.DATA}}
-            
-      ---
-      
+
+
       🎂:  
-        {{wx_birthday_0.DATA}}  
-        {{wx_birthday_1.DATA}}
+      &nbsp;&nbsp;{{wx_birthday_0.DATA}}  
+      &nbsp;&nbsp;{{wx_birthday_1.DATA}}
       
       💗：恋爱第{{love_day.DATA}}天 
     `
