@@ -93,7 +93,12 @@ const TEMPLATE_CONFIG = [
       ---  
       恋爱篇💗
       
-      💗：恋爱第{{love_day.DATA}}天  
+      💗：恋爱第{{love_day.DATA}}天
+      
+      ---  
+      每日一言篇🌞
+
+      🌞：{{note_ch.DATA}}
       
     `
   },
