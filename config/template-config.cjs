@@ -52,6 +52,44 @@ const TEMPLATE_CONFIG = [
       失败用户: {{fail_post_ids.DATA}}
     `
   },
+    {
+    id: '0003',
+    title: '亲爱的, 早上好~',
+    desc: `
+      🗓️{{date.DATA}}
+      
+      下个休息日：{{holidaytts.DATA}}
+      
+      ---
+      
+      城市：{{province.DATA}}·{{city.DATA}}
+      
+      天气☁️：{{weather.DATA}}
+      
+      温度🌡️: {{min_temperature.DATA}}℃/{{max_temperature.DATA}}℃
+      
+      风向：{{wind_direction.DATA}}
+      
+      风级：{{wind_scale.DATA}}
+      
+      湿度：{{shidu.DATA}}
+      
+      PM2.5：{{pm25.DATA}}
+      
+      空气质量：{{aqi.DATA}}
+      
+      日出/日落时间：{{sunrise.DATA}}/{{sunset.DATA}}
+      
+      温馨提示：{{notice.DATA}}
+            
+      ---
+      
+      🎂: 
+        {{wx_birthday_0.DATA}}
+        {{wx_birthday_1.DATA}}
+      💗：恋爱第{{love_day.DATA}}天 
+    `
+  },
 ]
 
 module.exports = TEMPLATE_CONFIG
