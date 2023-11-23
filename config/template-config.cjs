@@ -84,9 +84,10 @@ const TEMPLATE_CONFIG = [
             
       ---
       
-      🎂: 
-        {{wx_birthday_0.DATA}}
+      🎂:  
+        {{wx_birthday_0.DATA}}  
         {{wx_birthday_1.DATA}}
+      
       💗：恋爱第{{love_day.DATA}}天 
     `
   },
