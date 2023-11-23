@@ -23,7 +23,7 @@ const USER_CONFIG = {
       useTemplateId: '0003',
 
       festivals: [
-        { type: '*生日', name: '爸', year: '1970', date: '04-30', },
+        { type: '*生日', name: '爸', year: '1970', date: '04-29', },
         { type: '*生日', name: '妈', year: '1972', date: '09-08', },
         { type: '生日', name: '玉玉', year: '1995', date: '02-22', },
         { type: '*生日', name: '彬彬', year: '1993', date: '08-18', },
