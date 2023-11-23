@@ -61,11 +61,11 @@ const TEMPLATE_CONFIG = [
       下个休息日：{{holidaytts.DATA}}
 
       ---  
-      天气篇
+      天气篇☁️
       
       城市：{{province.DATA}}·{{city.DATA}}
       
-      天气☁️：{{weather.DATA}}
+      天气：{{weather.DATA}}
       
       温度🌡️: {{min_temperature.DATA}}℃/{{max_temperature.DATA}}℃
       
@@ -84,12 +84,15 @@ const TEMPLATE_CONFIG = [
       温馨提示：{{notice.DATA}}
 
       ---  
-      生日篇
-      🎂：{{wx_birthday_0.DATA}}  
+      生日篇🎂
+      
+      🎂：{{wx_birthday_0.DATA}}
+      
       🎂：{{wx_birthday_1.DATA}}
 
       ---  
-      恋爱篇
+      恋爱篇💗
+      
       💗：恋爱第{{love_day.DATA}}天  
       
     `
