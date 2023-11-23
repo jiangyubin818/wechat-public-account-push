@@ -31,7 +31,7 @@ const USER_CONFIG = {
         {"keyword":"love_day", date:"2013-10-02"},
       ],
     },
-    /*
+    
     {
       name: 'jcy',
       id: 'PDU26774TnPqEnU38OoWs4uHvc2lLt72RNOJsIau3',
@@ -46,7 +46,7 @@ const USER_CONFIG = {
         {"keyword":"love_day", date:"2013-10-02"},
       ],
     },
-    */
+    
   ],
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
