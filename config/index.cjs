@@ -17,8 +17,8 @@ const USER_CONFIG = {
   USERS: [
     {
       name: 'jyb',
-      id: 'onxGC6Vvbbz3NuEi8B0O8iVek9RY',
-      useTemplateId: 'nvmKOSYAGJAea7tiliMCmoMDOYUxw7IpUVsiBXU-Rcw',
+      id: 'PDU26743Tlvsp1tB3H60S8YHbSAAWxAS9TWuWLV7N',
+      useTemplateId: '0001',
 
       festivals: [
         { type: '生日', name: '玉玉', year: '1995', date: '02-22', },
@@ -29,7 +29,7 @@ const USER_CONFIG = {
         {"keyword":"love_day", date:"2013-10-02"},
       ],
     },
-    
+    /*
     {
       name: 'jcy',
       id: 'onxGC6UrO-1hzunsiwHH9hDJcpPI',
@@ -44,15 +44,15 @@ const USER_CONFIG = {
         {"keyword":"love_day", date:"2013-10-02"},
       ],
     },
-    
+    */
   ],
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'yGJRsh67M6UFWxE0zNfD7i_1Vl8hvUZ0r4mf1JChbWA',
+  CALLBACK_TEMPLATE_ID: '0002',
   CALLBACK_USERS: [
     {
       name: '自己',
-      id: 'onxGC6Vvbbz3NuEi8B0O8iVek9RY',
+      id: 'PDU26743Tlvsp1tB3H60S8YHbSAAWxAS9TWuWLV7N',
     }
   ],
 }
