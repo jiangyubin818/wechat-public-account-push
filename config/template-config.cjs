@@ -67,7 +67,7 @@ const TEMPLATE_CONFIG = [
       
       天气：{{weather.DATA}}
       
-      温度🌡️: {{min_temperature.DATA}}℃/{{max_temperature.DATA}}℃
+      温度🌡️: {{min_temperature.DATA}}/{{max_temperature.DATA}}
       
       风向：{{wind_direction.DATA}}
       
