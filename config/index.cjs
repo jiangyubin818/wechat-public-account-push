@@ -20,7 +20,7 @@ const USER_CONFIG = {
     {
       name: 'jyb',
       id: 'PDU26743Tlvsp1tB3H60S8YHbSAAWxAS9TWuWLV7N',
-      useTemplateId: '0001',
+      useTemplateId: '0003',
 
       festivals: [
         { type: '生日', name: '玉玉', year: '1995', date: '02-22', },
@@ -34,8 +34,8 @@ const USER_CONFIG = {
     /*
     {
       name: 'jcy',
-      id: 'onxGC6UrO-1hzunsiwHH9hDJcpPI',
-      useTemplateId: 'nvmKOSYAGJAea7tiliMCmoMDOYUxw7IpUVsiBXU-Rcw',
+      id: 'PDU26774TnPqEnU38OoWs4uHvc2lLt72RNOJsIau3',
+      useTemplateId: '0003',
       
       festivals: [
         { type: '生日', name: '玉玉', year: '1995', date: '02-22', },
